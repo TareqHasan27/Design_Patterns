@@ -12,6 +12,6 @@ public class addMushroom extends BaseDecorator{
 
     @Override
     public int  cost() {
-        return this.component.cost() + 30;
+        return component.cost() + 30;
     }
 }

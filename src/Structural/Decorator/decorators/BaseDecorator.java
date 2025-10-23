@@ -9,6 +9,6 @@ public class BaseDecorator implements component {
     }
     @Override
     public int cost() {
-        return this.component.cost();
+        return component.cost();
     }
 }
